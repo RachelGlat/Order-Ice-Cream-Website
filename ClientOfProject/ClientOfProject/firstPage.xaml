@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="ClientOfProject.firstPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ClientOfProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+	<Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="7*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="3" FontSize="50" Text="הקשת בחירה" Margin="40,17,-2,18" TextDecorations="None" FontWeight="Bold"/>
+        <TextBlock Grid.Column="2" FontSize="50" Text="כניסת מנהל" Margin="58,17,355,48" Grid.ColumnSpan="2" FontWeight="Bold" TextDecorations="None"/>
+        <TextBlock Grid.Column="1" FontSize="50" Text="בחירת פעולה" Margin="51,17,19,48" FontWeight="Bold" TextDecorations="None"/>
+        <TextBlock Grid.Column="0" FontSize="50" Text="ביצוע" Margin="114,17,25,47" FontWeight="Bold" TextDecorations="None"/>
+        <Button  x:Name="btmanager" Click="btmanager_Click" Content="כניסת מנהל" HorizontalAlignment="Center" Grid.Column="3" Margin="0,197,0,0" Grid.Row="1" VerticalAlignment="Top" Height="138" Width="313" FontSize="45"></Button>
+        <Button  x:Name="btinvention" Content="להזמנה" HorizontalAlignment="Center" Grid.Column="3" Margin="0,437,0,0" Grid.Row="1" VerticalAlignment="Top" Height="138" Width="313" FontSize="45"></Button>
+	</Grid>
+</Page>

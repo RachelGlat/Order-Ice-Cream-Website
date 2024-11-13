@@ -1,0 +1,95 @@
+﻿<Page
+    
+    x:Class="ClientOfProject.frozen"
+    xmlns:service="using:ClientOfProject.ServiceReference1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ClientOfProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid FlowDirection="RightToLeft" Padding="80" Background="Ivory" >
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="7*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+
+        <Grid Grid.Row="1" Grid.Column="1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="101*"/>
+                <RowDefinition Height="105*"/>
+                <RowDefinition Height="600*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+
+            <ListView x:ConnectionId='10' x:Name="lvAddition" Margin="-7,4,653,-105" Grid.ColumnSpan="2" Grid.Row="1" Grid.RowSpan="2"  >
+                <ListView.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="שם תוספת" MinWidth="100" FontWeight="Bold" Height="20"></TextBlock>
+                        <TextBlock Text="תמונה" MinWidth="100" FontWeight="Bold"></TextBlock>
+                    </StackPanel>
+                </ListView.Header>
+                <ListView.ItemTemplate>
+                    <DataTemplate                               >
+                        <StackPanel Orientation="Horizontal">
+                            <CheckBox Content="{Binding NameAddition}" MinWidth="100" ></CheckBox>
+                            <TextBlock Text="{Binding Picture}" MinWidth="100" ></TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+
+
+
+        <ListView x:ConnectionId='2' Background="#FFEB7272" Grid.Column="0" x:Name="lvCategory" Margin="-75,26,75,214" Grid.RowSpan="2" >
+            <ListView.ItemTemplate>
+                <DataTemplate                               >
+                    <Button x:ConnectionId='9' Content="{Binding NameCategory}" Tag="{Binding}"                       />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <HyperlinkButton x:ConnectionId='3' FontSize="30"  Content="הקודם" Height="84" Width="108" Margin="1295,88,0,0" VerticalAlignment="Top" Foreground="#FFC75353" Grid.Column="1"                               Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Button FontSize="30" Content="   הוסף להזמנה  🛒 "  Margin="915,690,0,0" VerticalAlignment="Top" Width="326" Background="#33B86E30" BorderBrush="#FFC75353" Grid.Row="1" Height="100" RenderTransformOrigin="0.571,-0.398" Grid.Column="1" />
+        <TextBlock Text="פרטי ההזמנה" FontSize="50" Grid.Column="1" Margin="367,-54,188,53" Grid.ColumnSpan="2"></TextBlock>
+        <TextBlock  Text="קטגוריות" FontSize="50" Margin="-68,-54,68,52"></TextBlock>
+        <TextBlock Text="סל הזמנה" FontSize="50" Margin="3,-54,-3,52" Grid.Column="2"></TextBlock>
+
+
+        <ListView x:ConnectionId='4' x:Name="lvspecial" Margin="-7,4,653,-105" Grid.ColumnSpan="2" Grid.Row="1" Grid.RowSpan="2"  >
+            <ListView.Header>
+                <StackPanel Orientation="Horizontal">
+                    <CheckBox x:ConnectionId='5' x:Name="cSpecial" Height="212" Width="351" />
+                </StackPanel>
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate                                    >
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox Content="{Binding NameDessert}" MinWidth="100" ></CheckBox>
+                        <TextBlock Text="{Binding Price}" MinWidth="100" ></TextBlock>
+                        <TextBlock Text="{Binding Description}" MinWidth="100" ></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+
+
+    </Grid>
+</Page>
+

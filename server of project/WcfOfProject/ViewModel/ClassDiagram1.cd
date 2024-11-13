@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ViewModel.AdditionAccordingCategoryDB">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>AdditionAccordingCategoryDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.AdditionsDB">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAABAAAACAI=</HashCode>
+      <FileName>AdditionsDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.BaseDB">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAgAKAABAAQAAhQAAAAAAAAAQAAQAAA=</HashCode>
+      <FileName>BaseDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.CategoryDB">
+    <Position X="20.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>CategoryDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.Class1">
+    <Position X="27.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.ClientsDB">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>ClientsDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.ConstantConstrictedDB">
+    <Position X="14.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>ConstantConstrictedDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.ConstrictedIinPurchaseDB">
+    <Position X="23" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>ConstrictedIinPurchaseDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.DetailingDessertInPurchaseDB">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>DetailingDessertInPurchaseDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.DsetailingScoopOfIceCreamDessertDB">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>DsetailingScoopOfIceCreamDessertDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.FlavorsIiceCreamDB">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAgAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>FlavorsIiceCreamDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.MyDB">
+    <Position X="29.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAEAAAAAAAAEAAAQACgAAQAAgAAAAAIASAAAAA=</HashCode>
+      <FileName>MyDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.Program">
+    <Position X="27.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.PurchasesDB">
+    <Position X="11.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>PurchasesDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.SpecialDessertDB">
+    <Position X="18.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAQAAAAAAAI=</HashCode>
+      <FileName>SpecialDessertDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.SpecificationAdditionsDessertDB">
+    <Position X="25.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>SpecificationAdditionsDessertDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

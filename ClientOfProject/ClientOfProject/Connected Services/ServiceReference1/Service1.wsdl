@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WcfOfProject/Service1/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WcfOfProject/Service1/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WcfOfProject/Service1/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetAllFlavors_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllFlavors" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAllFlavors_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllFlavorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSpecielDessert_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpecielDessert" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSpecielDessert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpecielDessertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAllAdditions_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAdditions" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAllAdditions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAdditionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAdditions_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdditions" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAdditions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdditionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAllCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCategory" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAllCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSpecificationAdditionsDesserts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpecificationAdditionsDesserts" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSpecificationAdditionsDesserts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpecificationAdditionsDessertsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAdditionAccordingCategories_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdditionAccordingCategories" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAdditionAccordingCategories_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdditionAccordingCategoriesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetCodeToAddition_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCodeToAddition" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetCodeToAddition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCodeToAdditionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetCodeToFlavors_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCodeToFlavors" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetCodeToFlavors_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCodeToFlavorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetCodeToMutzar_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCodeToMutzar" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetCodeToMutzar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCodeToMutzarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetCodeToClient_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCodeToClient" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetCodeToClient_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCodeToClientResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetCodeToDettalingDessert_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCodeToDettalingDessert" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetCodeToDettalingDessert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCodeToDettalingDessertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddAdditionAcordingCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddAdditionAcordingCategory" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddAdditionAcordingCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddAdditionAcordingCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddAdition_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddAdition" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddAdition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddAditionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddClient_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddClient" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddClient_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddClientResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Addspecialdessert_InputMessage">
+    <wsdl:part name="parameters" element="tns:Addspecialdessert" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Addspecialdessert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddspecialdessertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddConstantConstricted_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddConstantConstricted" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddConstantConstricted_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddConstantConstrictedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddFlavorIceCream_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddFlavorIceCream" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddFlavorIceCream_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddFlavorIceCreamResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddPurches_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddPurches" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddPurches_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddPurchesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddSpecificationAdditionsDessert_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddSpecificationAdditionsDessert" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddSpecificationAdditionsDessert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddSpecificationAdditionsDessertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Adddetailing_scoop_of_ice_cream_dessert_InputMessage">
+    <wsdl:part name="parameters" element="tns:Adddetailing_scoop_of_ice_cream_dessert" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Adddetailing_scoop_of_ice_cream_dessert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Adddetailing_scoop_of_ice_cream_dessertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddDettalingDessertImPurches_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddDettalingDessertImPurches" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddDettalingDessertImPurches_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddDettalingDessertImPurchesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DellAdditionAcordingCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:DellAdditionAcordingCategory" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DellAdditionAcordingCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DellAdditionAcordingCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DellAdditions_InputMessage">
+    <wsdl:part name="parameters" element="tns:DellAdditions" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DellAdditions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DellAdditionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DellFlavorIceCream_InputMessage">
+    <wsdl:part name="parameters" element="tns:DellFlavorIceCream" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DellFlavorIceCream_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DellFlavorIceCreamResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DellSpecialDessert_InputMessage">
+    <wsdl:part name="parameters" element="tns:DellSpecialDessert" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DellSpecialDessert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DellSpecialDessertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpDateAdditionAccordingCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpDateAdditionAccordingCategory" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpDateAdditionAccordingCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpDateAdditionAccordingCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpDateAdditions_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpDateAdditions" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpDateAdditions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpDateAdditionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpDateClients_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpDateClients" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpDateClients_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpDateClientsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpDateConstantConstricted_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpDateConstantConstricted" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpDateConstantConstricted_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpDateConstantConstrictedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpDateConstrictedIinPurchase_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpDateConstrictedIinPurchase" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpDateConstrictedIinPurchase_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpDateConstrictedIinPurchaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpDateDsetailingScoopOfIceCreamDessert_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpDateDsetailingScoopOfIceCreamDessert" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpDateDsetailingScoopOfIceCreamDessert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpDateDsetailingScoopOfIceCreamDessertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpDateDetailingDessertInPurchase_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpDateDetailingDessertInPurchase" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpDateDetailingDessertInPurchase_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpDateDetailingDessertInPurchaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpDateFlavorsIiceCream_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpDateFlavorsIiceCream" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpDateFlavorsIiceCream_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpDateFlavorsIiceCreamResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpDatePurchases_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpDatePurchases" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpDatePurchases_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpDatePurchasesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpDateSpecialDessert_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpDateSpecialDessert" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpDateSpecialDessert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpDateSpecialDessertResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetAllFlavors">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAllFlavors" message="tns:IService1_GetAllFlavors_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAllFlavorsResponse" message="tns:IService1_GetAllFlavors_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecielDessert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetSpecielDessert" message="tns:IService1_GetSpecielDessert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetSpecielDessertResponse" message="tns:IService1_GetSpecielDessert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAdditions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAllAdditions" message="tns:IService1_GetAllAdditions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAllAdditionsResponse" message="tns:IService1_GetAllAdditions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdditions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAdditions" message="tns:IService1_GetAdditions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAdditionsResponse" message="tns:IService1_GetAdditions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAllCategory" message="tns:IService1_GetAllCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAllCategoryResponse" message="tns:IService1_GetAllCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificationAdditionsDesserts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetSpecificationAdditionsDesserts" message="tns:IService1_GetSpecificationAdditionsDesserts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetSpecificationAdditionsDessertsResponse" message="tns:IService1_GetSpecificationAdditionsDesserts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdditionAccordingCategories">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAdditionAccordingCategories" message="tns:IService1_GetAdditionAccordingCategories_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAdditionAccordingCategoriesResponse" message="tns:IService1_GetAdditionAccordingCategories_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCodeToAddition">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetCodeToAddition" message="tns:IService1_GetCodeToAddition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetCodeToAdditionResponse" message="tns:IService1_GetCodeToAddition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCodeToFlavors">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetCodeToFlavors" message="tns:IService1_GetCodeToFlavors_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetCodeToFlavorsResponse" message="tns:IService1_GetCodeToFlavors_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCodeToMutzar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetCodeToMutzar" message="tns:IService1_GetCodeToMutzar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetCodeToMutzarResponse" message="tns:IService1_GetCodeToMutzar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCodeToClient">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetCodeToClient" message="tns:IService1_GetCodeToClient_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetCodeToClientResponse" message="tns:IService1_GetCodeToClient_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCodeToDettalingDessert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetCodeToDettalingDessert" message="tns:IService1_GetCodeToDettalingDessert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetCodeToDettalingDessertResponse" message="tns:IService1_GetCodeToDettalingDessert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddAdditionAcordingCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddAdditionAcordingCategory" message="tns:IService1_AddAdditionAcordingCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddAdditionAcordingCategoryResponse" message="tns:IService1_AddAdditionAcordingCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddAdition">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddAdition" message="tns:IService1_AddAdition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddAditionResponse" message="tns:IService1_AddAdition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddClient">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddClient" message="tns:IService1_AddClient_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddClientResponse" message="tns:IService1_AddClient_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Addspecialdessert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Addspecialdessert" message="tns:IService1_Addspecialdessert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddspecialdessertResponse" message="tns:IService1_Addspecialdessert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddConstantConstricted">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddConstantConstricted" message="tns:IService1_AddConstantConstricted_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddConstantConstrictedResponse" message="tns:IService1_AddConstantConstricted_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddFlavorIceCream">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddFlavorIceCream" message="tns:IService1_AddFlavorIceCream_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddFlavorIceCreamResponse" message="tns:IService1_AddFlavorIceCream_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPurches">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddPurches" message="tns:IService1_AddPurches_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddPurchesResponse" message="tns:IService1_AddPurches_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddSpecificationAdditionsDessert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddSpecificationAdditionsDessert" message="tns:IService1_AddSpecificationAdditionsDessert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddSpecificationAdditionsDessertResponse" message="tns:IService1_AddSpecificationAdditionsDessert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Adddetailing_scoop_of_ice_cream_dessert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Adddetailing_scoop_of_ice_cream_dessert" message="tns:IService1_Adddetailing_scoop_of_ice_cream_dessert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Adddetailing_scoop_of_ice_cream_dessertResponse" message="tns:IService1_Adddetailing_scoop_of_ice_cream_dessert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddDettalingDessertImPurches">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddDettalingDessertImPurches" message="tns:IService1_AddDettalingDessertImPurches_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddDettalingDessertImPurchesResponse" message="tns:IService1_AddDettalingDessertImPurches_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DellAdditionAcordingCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DellAdditionAcordingCategory" message="tns:IService1_DellAdditionAcordingCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DellAdditionAcordingCategoryResponse" message="tns:IService1_DellAdditionAcordingCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DellAdditions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DellAdditions" message="tns:IService1_DellAdditions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DellAdditionsResponse" message="tns:IService1_DellAdditions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DellFlavorIceCream">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DellFlavorIceCream" message="tns:IService1_DellFlavorIceCream_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DellFlavorIceCreamResponse" message="tns:IService1_DellFlavorIceCream_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DellSpecialDessert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DellSpecialDessert" message="tns:IService1_DellSpecialDessert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DellSpecialDessertResponse" message="tns:IService1_DellSpecialDessert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpDateAdditionAccordingCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpDateAdditionAccordingCategory" message="tns:IService1_UpDateAdditionAccordingCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpDateAdditionAccordingCategoryResponse" message="tns:IService1_UpDateAdditionAccordingCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpDateAdditions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpDateAdditions" message="tns:IService1_UpDateAdditions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpDateAdditionsResponse" message="tns:IService1_UpDateAdditions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpDateClients">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpDateClients" message="tns:IService1_UpDateClients_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpDateClientsResponse" message="tns:IService1_UpDateClients_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpDateConstantConstricted">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpDateConstantConstricted" message="tns:IService1_UpDateConstantConstricted_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpDateConstantConstrictedResponse" message="tns:IService1_UpDateConstantConstricted_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpDateConstrictedIinPurchase">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpDateConstrictedIinPurchase" message="tns:IService1_UpDateConstrictedIinPurchase_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpDateConstrictedIinPurchaseResponse" message="tns:IService1_UpDateConstrictedIinPurchase_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpDateDsetailingScoopOfIceCreamDessert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpDateDsetailingScoopOfIceCreamDessert" message="tns:IService1_UpDateDsetailingScoopOfIceCreamDessert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpDateDsetailingScoopOfIceCreamDessertResponse" message="tns:IService1_UpDateDsetailingScoopOfIceCreamDessert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpDateDetailingDessertInPurchase">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpDateDetailingDessertInPurchase" message="tns:IService1_UpDateDetailingDessertInPurchase_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpDateDetailingDessertInPurchaseResponse" message="tns:IService1_UpDateDetailingDessertInPurchase_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpDateFlavorsIiceCream">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpDateFlavorsIiceCream" message="tns:IService1_UpDateFlavorsIiceCream_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpDateFlavorsIiceCreamResponse" message="tns:IService1_UpDateFlavorsIiceCream_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpDatePurchases">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpDatePurchases" message="tns:IService1_UpDatePurchases_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpDatePurchasesResponse" message="tns:IService1_UpDatePurchases_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpDateSpecialDessert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpDateSpecialDessert" message="tns:IService1_UpDateSpecialDessert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpDateSpecialDessertResponse" message="tns:IService1_UpDateSpecialDessert_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllFlavors">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAllFlavors" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecielDessert">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetSpecielDessert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAdditions">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAllAdditions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdditions">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAdditions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCategory">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAllCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificationAdditionsDesserts">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetSpecificationAdditionsDesserts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdditionAccordingCategories">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAdditionAccordingCategories" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCodeToAddition">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetCodeToAddition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCodeToFlavors">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetCodeToFlavors" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCodeToMutzar">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetCodeToMutzar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCodeToClient">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetCodeToClient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCodeToDettalingDessert">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetCodeToDettalingDessert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddAdditionAcordingCategory">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddAdditionAcordingCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddAdition">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddAdition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddClient">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddClient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Addspecialdessert">
+      <soap:operation soapAction="http://tempuri.org/IService1/Addspecialdessert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddConstantConstricted">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddConstantConstricted" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddFlavorIceCream">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddFlavorIceCream" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPurches">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddPurches" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddSpecificationAdditionsDessert">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddSpecificationAdditionsDessert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Adddetailing_scoop_of_ice_cream_dessert">
+      <soap:operation soapAction="http://tempuri.org/IService1/Adddetailing_scoop_of_ice_cream_dessert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddDettalingDessertImPurches">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddDettalingDessertImPurches" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DellAdditionAcordingCategory">
+      <soap:operation soapAction="http://tempuri.org/IService1/DellAdditionAcordingCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DellAdditions">
+      <soap:operation soapAction="http://tempuri.org/IService1/DellAdditions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DellFlavorIceCream">
+      <soap:operation soapAction="http://tempuri.org/IService1/DellFlavorIceCream" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DellSpecialDessert">
+      <soap:operation soapAction="http://tempuri.org/IService1/DellSpecialDessert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpDateAdditionAccordingCategory">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpDateAdditionAccordingCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpDateAdditions">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpDateAdditions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpDateClients">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpDateClients" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpDateConstantConstricted">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpDateConstantConstricted" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpDateConstrictedIinPurchase">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpDateConstrictedIinPurchase" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpDateDsetailingScoopOfIceCreamDessert">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpDateDsetailingScoopOfIceCreamDessert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpDateDetailingDessertInPurchase">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpDateDetailingDessertInPurchase" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpDateFlavorsIiceCream">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpDateFlavorsIiceCream" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpDatePurchases">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpDatePurchases" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpDateSpecialDessert">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpDateSpecialDessert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WcfOfProject/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

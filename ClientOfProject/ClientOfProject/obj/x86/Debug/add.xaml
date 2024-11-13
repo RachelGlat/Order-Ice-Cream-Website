@@ -1,0 +1,86 @@
+﻿<Page x:ConnectionId='1'
+                          
+    xmlns:service="using:ClientOfProject.ServiceReference1"
+    x:Class="ClientOfProject.add"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ClientOfProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="Beige">
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image Source="/Assets/logo.PNG" Margin="10,6,1661,894"  Grid.RowSpan="2" />
+
+
+        <ListView x:ConnectionId='2' x:Name="lvAddDessert" Margin="809,68,0,47" IsEnabled="False" HorizontalAlignment="Left" Grid.Row="1" Width="491">
+            <TextBlock FontSize="30" HorizontalTextAlignment="Center" Text="הוספת מנה/מוצר" Width="431" FontWeight="Bold" Height="32"></TextBlock>
+
+            <TextBox x:ConnectionId='18' x:Name="tNamedessert" Header="שם מוצר/מנה" Text=" " Height="90" Width="419"  Margin="8"></TextBox>
+            <TextBox x:ConnectionId='19' x:Name="tPricedessert" Header="מחיר" Text=" " Height="90" Width="419"  Margin="8"></TextBox>
+            <TextBox x:ConnectionId='20' x:Name="tAmountIceCream" Header="מספר כדורי הגלידה שניתן לבחור במנה"></TextBox>
+            <TextBox x:ConnectionId='21' x:Name="tPicturedessert" Header="תמונה" Text=" " Height="90" Width="419"  Margin="8"></TextBox>
+            <StackPanel>
+                <TextBlock Text="בחר את קטגוריית המוצר" FontSize="15" Height="26" Width="179"></TextBlock>
+                <RadioButton x:ConnectionId='26' x:Name="rs1" Content="פרוזן"></RadioButton>
+                <RadioButton x:ConnectionId='27' x:Name="rs2" Content="גלידה"></RadioButton>
+                <RadioButton x:ConnectionId='28' x:Name="rs3" Content="וופל בלגי"></RadioButton>
+                <RadioButton x:ConnectionId='29' x:Name="rs4" Content="קרפ צרפתי"></RadioButton>
+                <RadioButton x:ConnectionId='30' x:Name="rs5" Content="שתיה"></RadioButton>
+                <RadioButton x:ConnectionId='31' x:Name="rs6" Content="אייסים"></RadioButton>
+                <RadioButton x:ConnectionId='32' x:Name="rs7" Content="ארטיקים"></RadioButton>
+            </StackPanel>
+
+            <TextBox x:ConnectionId='22' x:Name="tAmountAdditions" Text=" " Header="מספר תוספות שניתן לבחור במנה"></TextBox>
+            <TextBox x:ConnectionId='23' x:Name="tdescrption" Text=" " Header="תאור מנה"></TextBox>
+            <TextBox x:ConnectionId='24' x:Name="tsize" Text=" " Header="גודל"></TextBox>
+            <Button x:ConnectionId='25' x:Name="btAddMutzar"                           FontSize="25" Margin="60" Content="אישור הוספת המוצר" Height="60" Width="302"></Button>
+        </ListView>
+
+
+        <ListView x:ConnectionId='3' x:Name="lvAddFlavorIceCream" Margin="1364,68,0,10"  IsEnabled="False" HorizontalAlignment="Left" Grid.Row="1" Width="509">
+            <TextBlock FontSize="30" HorizontalTextAlignment="Center" Text="הוספת טעם של גלידה" Width="483" FontWeight="Bold" Height="36"></TextBlock>
+            <TextBox x:ConnectionId='13' x:Name="tNameflavors" Header="שם טעם" Text=" " Height="90" Margin="8" Width="419"></TextBox>
+            <TextBox x:ConnectionId='14' x:Name="tPictureFlavors" Header="תמונה" Text=" " Height="91" Margin="8" Width="419"></TextBox>
+            <!--<ComboBox x:Name="cmbMilk" Margin="8" Header="חלבי  כן/לא" Width="84">
+                <Button Click="b1_Click" x:Name="b1"  Content="True" ></Button>
+                <Button x:Name="b2" Content="False"></Button>
+            </ComboBox>-->
+            <RadioButton x:ConnectionId='15' Content="חלבי" x:Name="c1" ></RadioButton>
+            <RadioButton x:ConnectionId='16' Content="פרווה"  x:Name="c2"  ></RadioButton>
+
+            <Button x:ConnectionId='17' x:Name="btAddFlavorIceCream"                                   FontSize="25" Margin="100" Content="אישור הוספת הטעם" Height="60" Width="279"></Button>
+        </ListView>
+
+
+
+        <ListView x:ConnectionId='4' x:Name="lvAddAddition" Margin="34,68,0,79" IsEnabled="False" HorizontalAlignment="Left" Grid.Row="1"  Width="669">
+            <TextBlock FontSize="30" Text="הוספת תוספת" HorizontalTextAlignment="Center" Width="651" FontWeight="Bold" Height="36"></TextBlock>
+            <TextBox x:ConnectionId='9' Header="שם תוספת" Margin="8" Text=" " x:Name="tNameAddition" Height="90" Width="615"></TextBox>
+            <TextBox x:ConnectionId='10' Header="תמונה" Height="90" Text=" " x:Name="tPictureAddition" Margin="8" Width="615"></TextBox>
+            <TextBlock Text="לתשומת לב!  " HorizontalTextAlignment="Right" FontSize="20" Foreground="Red" Height="33" Width="631"></TextBlock>
+            <TextBlock HorizontalTextAlignment="Center"  Text=" כאשר מוסיפים תוספת יש לעדכן גם בטבלת תוספות לפי קטגוריה על מנת שאכן ההוספה תתבצע כשורה" Height="39" Foreground="#FF690000" Width="657"></TextBlock>
+            <TextBlock x:ConnectionId='11'  Text=" " x:Name="txtadd1" Height="77" Margin="40" Width="549"></TextBlock>
+            <Button x:ConnectionId='12' x:Name="btAddAddition"                             FontSize="25" Margin="160" Content="אישור הוספת התוספת" Height="60" Width="300" />
+        </ListView>
+
+
+
+        <TextBlock Text="הוספה" Grid.Row="0" FontSize="50" Margin="1726,10,2,97"/>
+        <StackPanel  Grid.Row="0" Orientation="Horizontal" Margin="1100,90,16,0" >
+            <Button x:ConnectionId='6' Content="תוספת" Width="215" Margin="20"                        ></Button>
+            <Button x:ConnectionId='7' Content="מוצר" Margin="20" Width="215"                     ></Button>
+            <Button x:ConnectionId='8' Content="טעם גלידה" Margin="20" Width="215"                       ></Button>
+        </StackPanel>
+        <Button x:ConnectionId='5' FontSize="35" Content="לחזור לתפריט הקודם" Margin="349,65,0,0" VerticalAlignment="Top" Height="70" Width="354" FontWeight="Bold"                       />
+
+    </Grid>
+</Page>
+

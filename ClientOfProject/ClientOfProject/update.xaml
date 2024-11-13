@@ -1,0 +1,90 @@
+﻿<Page
+    xmlns:service="using:ClientOfProject.ServiceReference1"
+    Loading="Page_Loading"
+    x:Class="ClientOfProject.update"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ClientOfProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="Beige">
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Image Source="/Assets/logo.PNG" Margin="10,6,1661,894"  Grid.RowSpan="2" />
+
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+
+
+            <ListView Grid.Column="1" x:Name="lv">
+                <ListView.ItemTemplate>
+                    <DataTemplate  x:DataType="service:SpecialDessert">
+                        <StackPanel Padding="5" Background="#FFCEB9B9" Orientation="Horizontal" Margin="5">
+                            
+                           <Button Tag="{Binding}" Margin="7">
+                                <SymbolIcon Symbol="Edit" Tapped="SymbolIcon_Tapped"/>
+                            </Button>
+                            
+                            <TextBlock Width="20"  Text="{Binding AmountIceCream}" />
+                            <TextBlock Width="50"  Text="{Binding Picture}" />
+                            <TextBlock Width="70"  Text="{Binding CodeCategory.CodeCategory}" />
+                            <TextBlock Width="70"  Text="{Binding AmountAdditions}" />
+                            <TextBlock Width="70"  Text="{Binding Description}" />
+                            <TextBlock Width="70"  Text="{Binding Size}" />
+                            <TextBlock Text="₪"></TextBlock>
+                            <TextBlock Width="70"  Text="{Binding Price}" />
+                            <TextBlock Width="250"  Text="{Binding NameDessert}" />
+                            <TextBlock Width="70" Text="{Binding CodeDessert}" FontWeight="Bold"  />
+                           
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+
+
+            <ListView  x:Name="lvUpDateDessert" Margin="0,20,0,0" IsEnabled="False" HorizontalAlignment="Center" Width="306" >
+
+                <TextBlock FontSize="30" HorizontalTextAlignment="Center" Text="עדכון מנה"  FontWeight="Bold" Height="115"></TextBlock>
+                <StackPanel>
+                    <TextBox x:Name="TbCodeDessert" Width="200" Height="70" Header="קוד מנה" Text=" "></TextBox>
+                    <TextBox x:Name="TbNameDessert"  Header="שם מנה" Text=" " Height="70" Margin="8" Width="200"></TextBox>
+                    <TextBox x:Name="TbPriceDessert"  Header="מחיר" Text=" " Height="70" Margin="8" Width="200"></TextBox>
+                    <TextBox x:Name="TbIceCreamDessert" Width="200" Height="70" Header="כמות כדורי גלידה" Text=" "></TextBox>
+                    <TextBox x:Name="TbPictureDessert" Width="200" Height="70" Header="תמונה" Text=" "></TextBox>
+                    <TextBox x:Name="TbCodeCategoryDessert" Width="200" Height="70" Header="קוד קטגוריה" Text=" "></TextBox>
+                    <TextBox x:Name="TbAdditionsDessert" Width="200" Height="70" Header="כמות תוספות" Text=" "></TextBox>
+                    <TextBox x:Name="TbDetallingDessert" Width="200" Height="70" Header="פרוט מנה" Text=" "></TextBox>
+                    <TextBox x:Name="TbSizeDessert" Width="200" Height="70" Header=" גודל" Text=" "></TextBox>
+                <Button x:Name="btUpDateDessert"   FontSize="25" Margin="10" Content="אישור עדכון מנה" Height="70" Width="200"></Button>
+                 </StackPanel>
+                <TextBlock x:Name="txDessert" Text=" "></TextBlock>
+            </ListView>
+
+
+
+
+
+        </Grid>
+
+
+        <TextBlock Text="עדכון" Grid.Row="0" FontSize="50" Margin="1764,10,2,97"/>
+       
+        <Button FontSize="35" Content="לחזור לתפריט הקודם" Margin="349,65,0,0" VerticalAlignment="Top" Click="Button_Click" Height="70" Width="354" FontWeight="Bold" />
+
+    </Grid>
+</Page>

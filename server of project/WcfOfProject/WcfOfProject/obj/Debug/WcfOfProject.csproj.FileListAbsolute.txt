@@ -1,0 +1,200 @@
+H:\כתה יב תשפב תכנות\רחל גלטשטיין\!!!הההפפפררווייקקט\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csprojAssemblyReference.cache
+H:\כתה יב תשפב תכנות\רחל גלטשטיין\!!!הההפפפררווייקקט\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CoreCompileInputs.cache
+H:\כתה יב תשפב תכנות\רחל גלטשטיין\!!!הההפפפררווייקקט\רחל\שימושי\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.dll.config
+H:\כתה יב תשפב תכנות\רחל גלטשטיין\!!!הההפפפררווייקקט\רחל\שימושי\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.dll
+H:\כתה יב תשפב תכנות\רחל גלטשטיין\!!!הההפפפררווייקקט\רחל\שימושי\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.pdb
+H:\כתה יב תשפב תכנות\רחל גלטשטיין\!!!הההפפפררווייקקט\רחל\שימושי\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csprojAssemblyReference.cache
+H:\כתה יב תשפב תכנות\רחל גלטשטיין\!!!הההפפפררווייקקט\רחל\שימושי\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CoreCompileInputs.cache
+H:\כתה יב תשפב תכנות\רחל גלטשטיין\!!!הההפפפררווייקקט\רחל\שימושי\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.dll
+H:\כתה יב תשפב תכנות\רחל גלטשטיין\!!!הההפפפררווייקקט\רחל\שימושי\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.pdb
+C:\Users\tichnut\Desktop\רחל\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.dll.config
+C:\Users\tichnut\Desktop\רחל\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.dll
+C:\Users\tichnut\Desktop\רחל\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.pdb
+C:\Users\tichnut\Desktop\רחל\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csprojAssemblyReference.cache
+C:\Users\tichnut\Desktop\רחל\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CoreCompileInputs.cache
+C:\Users\tichnut\Desktop\רחל\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.dll
+C:\Users\tichnut\Desktop\רחל\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.pdb
+C:\Users\tichnut\Desktop\רחל חדש\רחל\שימושי\אחרון מכ'א אדר\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csprojAssemblyReference.cache
+C:\Users\tichnut\Desktop\רחל חדש\רחל\שימושי\אחרון מכ'א אדר\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CoreCompileInputs.cache
+C:\Users\tichnut\Desktop\רחל חדש\רחל\שימושי\אחרון מכ'א אדר\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.dll
+C:\Users\tichnut\Desktop\רחל חדש\רחל\שימושי\אחרון מכ'א אדר\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.pdb
+C:\Users\tichnut\Desktop\אחרון מכ'ח אדר\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csprojAssemblyReference.cache
+C:\Users\tichnut\Desktop\אחרון מכ'ח אדר\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CoreCompileInputs.cache
+C:\Users\tichnut\Desktop\אחרון מכ'ח אדר\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.dll
+C:\Users\tichnut\Desktop\אחרון מכ'ח אדר\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.pdb
+C:\Users\tichnut\Desktop\אחרון מכ'ו אדר ב\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csprojAssemblyReference.cache
+C:\Users\tichnut\Desktop\אחרון מכ'ו אדר ב\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CoreCompileInputs.cache
+C:\Users\tichnut\Desktop\אחרון מכ'ו אדר ב\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.dll
+C:\Users\tichnut\Desktop\אחרון מכ'ו אדר ב\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.pdb
+C:\Users\tichnut\Desktop\אחרון כ'ה ניסן\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csprojAssemblyReference.cache
+C:\Users\tichnut\Desktop\אחרון כ'ה ניסן\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CoreCompileInputs.cache
+C:\Users\tichnut\Desktop\אחרון כ'ה ניסן\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.dll
+C:\Users\tichnut\Desktop\אחרון כ'ה ניסן\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.pdb
+C:\Users\tichnut\Desktop\אחרון כ'ה ניסן\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.dll
+C:\Users\tichnut\Desktop\אחרון כ'ה ניסן\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.pdb
+C:\Users\tichnut\Desktop\אחרון כ'ה ניסן\WcfOfProject\WcfOfProject\bin\Debug\Model.exe
+C:\Users\tichnut\Desktop\אחרון כ'ה ניסן\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe
+C:\Users\tichnut\Desktop\אחרון כ'ה ניסן\WcfOfProject\WcfOfProject\bin\Debug\Model.pdb
+C:\Users\tichnut\Desktop\אחרון כ'ה ניסן\WcfOfProject\WcfOfProject\bin\Debug\Model.exe.config
+C:\Users\tichnut\Desktop\אחרון כ'ה ניסן\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.pdb
+C:\Users\tichnut\Desktop\אחרון כ'ה ניסן\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe.config
+C:\Users\tichnut\Desktop\אחרון כ'ה ניסן\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CopyComplete
+D:\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.dll
+D:\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.pdb
+D:\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\bin\Debug\Model.exe
+D:\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe
+D:\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\bin\Debug\Model.pdb
+D:\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\bin\Debug\Model.exe.config
+D:\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.pdb
+D:\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe.config
+D:\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.AssemblyReference.cache
+D:\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CoreCompileInputs.cache
+D:\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CopyComplete
+D:\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.dll
+D:\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.pdb
+C:\Users\משתמש\Desktop\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.AssemblyReference.cache
+C:\Users\משתמש\Desktop\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CoreCompileInputs.cache
+C:\Users\משתמש\Desktop\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.dll
+C:\Users\משתמש\Desktop\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.pdb
+C:\Users\משתמש\Desktop\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.dll
+C:\Users\משתמש\Desktop\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.pdb
+C:\Users\משתמש\Desktop\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\bin\Debug\Model.exe
+C:\Users\משתמש\Desktop\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe
+C:\Users\משתמש\Desktop\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\bin\Debug\Model.pdb
+C:\Users\משתמש\Desktop\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\bin\Debug\Model.exe.config
+C:\Users\משתמש\Desktop\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.pdb
+C:\Users\משתמש\Desktop\אחרון א סיוון\אחרון א' סיון\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe.config
+D:\אחרון א' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.dll
+D:\אחרון א' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.pdb
+D:\אחרון א' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\Model.exe
+D:\אחרון א' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe
+D:\אחרון א' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\Model.pdb
+D:\אחרון א' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\Model.exe.config
+D:\אחרון א' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.pdb
+D:\אחרון א' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe.config
+D:\אחרון א' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.AssemblyReference.cache
+D:\אחרון א' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CoreCompileInputs.cache
+D:\אחרון א' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CopyComplete
+D:\אחרון א' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.dll
+D:\אחרון א' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.pdb
+C:\Users\tichnut.DOMAIN\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csprojAssemblyReference.cache
+C:\Users\tichnut.DOMAIN\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CoreCompileInputs.cache
+C:\Users\tichnut.DOMAIN\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.dll
+C:\Users\tichnut.DOMAIN\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.pdb
+C:\Users\tichnut\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csprojAssemblyReference.cache
+C:\Users\tichnut\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CoreCompileInputs.cache
+C:\Users\tichnut\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.dll
+C:\Users\tichnut\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.pdb
+C:\Users\tichnut\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.dll
+C:\Users\tichnut\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.pdb
+C:\Users\tichnut\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\Model.exe
+C:\Users\tichnut\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe
+C:\Users\tichnut\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\Model.pdb
+C:\Users\tichnut\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\Model.exe.config
+C:\Users\tichnut\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.pdb
+C:\Users\tichnut\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe.config
+C:\Users\tichnut\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CopyComplete
+C:\Users\Yoga\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.dll
+C:\Users\Yoga\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.pdb
+C:\Users\Yoga\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\Model.exe
+C:\Users\Yoga\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe
+C:\Users\Yoga\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\Model.pdb
+C:\Users\Yoga\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\Model.exe.config
+C:\Users\Yoga\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.pdb
+C:\Users\Yoga\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe.config
+C:\Users\Yoga\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.AssemblyReference.cache
+C:\Users\Yoga\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CoreCompileInputs.cache
+C:\Users\Yoga\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CopyComplete
+C:\Users\Yoga\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.dll
+C:\Users\Yoga\Desktop\פרויקט מעודכן י' סיון\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.pdb
+C:\Users\tichnut\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.dll
+C:\Users\tichnut\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.pdb
+C:\Users\tichnut\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\Model.exe
+C:\Users\tichnut\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe
+C:\Users\tichnut\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\Model.pdb
+C:\Users\tichnut\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\Model.exe.config
+C:\Users\tichnut\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.pdb
+C:\Users\tichnut\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe.config
+C:\Users\tichnut\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CoreCompileInputs.cache
+C:\Users\tichnut\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CopyComplete
+C:\Users\tichnut\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.dll
+C:\Users\tichnut\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.pdb
+D:\פרויקט מעודכן טו ' סיון\אחרון ב' סיון עם המורה\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.dll
+D:\פרויקט מעודכן טו ' סיון\אחרון ב' סיון עם המורה\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.pdb
+D:\פרויקט מעודכן טו ' סיון\אחרון ב' סיון עם המורה\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\Model.exe
+D:\פרויקט מעודכן טו ' סיון\אחרון ב' סיון עם המורה\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe
+D:\פרויקט מעודכן טו ' סיון\אחרון ב' סיון עם המורה\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\Model.pdb
+D:\פרויקט מעודכן טו ' סיון\אחרון ב' סיון עם המורה\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\Model.exe.config
+D:\פרויקט מעודכן טו ' סיון\אחרון ב' סיון עם המורה\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.pdb
+D:\פרויקט מעודכן טו ' סיון\אחרון ב' סיון עם המורה\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe.config
+D:\פרויקט מעודכן טו ' סיון\אחרון ב' סיון עם המורה\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.AssemblyReference.cache
+D:\פרויקט מעודכן טו ' סיון\אחרון ב' סיון עם המורה\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CoreCompileInputs.cache
+D:\פרויקט מעודכן טו ' סיון\אחרון ב' סיון עם המורה\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CopyComplete
+D:\פרויקט מעודכן טו ' סיון\אחרון ב' סיון עם המורה\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.dll
+D:\פרויקט מעודכן טו ' סיון\אחרון ב' סיון עם המורה\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.pdb
+C:\Users\Yoga\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.dll
+C:\Users\Yoga\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.pdb
+C:\Users\Yoga\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\Model.exe
+C:\Users\Yoga\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe
+C:\Users\Yoga\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\Model.pdb
+C:\Users\Yoga\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\Model.exe.config
+C:\Users\Yoga\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.pdb
+C:\Users\Yoga\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe.config
+C:\Users\Yoga\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.AssemblyReference.cache
+C:\Users\Yoga\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CoreCompileInputs.cache
+C:\Users\Yoga\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CopyComplete
+C:\Users\Yoga\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.dll
+C:\Users\Yoga\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.pdb
+C:\Users\tichnut\Desktop\אחרון ב' סיון עם המורה\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.AssemblyReference.cache
+C:\Users\Yoga\Desktop\של הבית פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.dll
+C:\Users\Yoga\Desktop\של הבית פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.pdb
+C:\Users\Yoga\Desktop\של הבית פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\Model.exe
+C:\Users\Yoga\Desktop\של הבית פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe
+C:\Users\Yoga\Desktop\של הבית פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\Model.pdb
+C:\Users\Yoga\Desktop\של הבית פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\Model.exe.config
+C:\Users\Yoga\Desktop\של הבית פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.pdb
+C:\Users\Yoga\Desktop\של הבית פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe.config
+C:\Users\Yoga\Desktop\של הבית פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.AssemblyReference.cache
+C:\Users\Yoga\Desktop\של הבית פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CoreCompileInputs.cache
+C:\Users\Yoga\Desktop\של הבית פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CopyComplete
+C:\Users\Yoga\Desktop\של הבית פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.dll
+C:\Users\Yoga\Desktop\של הבית פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.pdb
+C:\Users\tichnut\Desktop\של הבית ראשון פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.dll
+C:\Users\tichnut\Desktop\של הבית ראשון פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.pdb
+C:\Users\tichnut\Desktop\של הבית ראשון פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\Model.exe
+C:\Users\tichnut\Desktop\של הבית ראשון פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe
+C:\Users\tichnut\Desktop\של הבית ראשון פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\Model.pdb
+C:\Users\tichnut\Desktop\של הבית ראשון פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\Model.exe.config
+C:\Users\tichnut\Desktop\של הבית ראשון פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.pdb
+C:\Users\tichnut\Desktop\של הבית ראשון פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe.config
+C:\Users\tichnut\Desktop\של הבית ראשון פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csprojAssemblyReference.cache
+C:\Users\tichnut\Desktop\של הבית ראשון פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CoreCompileInputs.cache
+C:\Users\tichnut\Desktop\של הבית ראשון פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CopyComplete
+C:\Users\tichnut\Desktop\של הבית ראשון פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.dll
+C:\Users\tichnut\Desktop\של הבית ראשון פרויקט מעודכן\אחרון כג סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.pdb
+C:\Users\Yoga\Desktop\שני ערב מהסמינר\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.dll
+C:\Users\Yoga\Desktop\שני ערב מהסמינר\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.pdb
+C:\Users\Yoga\Desktop\שני ערב מהסמינר\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\Model.exe
+C:\Users\Yoga\Desktop\שני ערב מהסמינר\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe
+C:\Users\Yoga\Desktop\שני ערב מהסמינר\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\Model.pdb
+C:\Users\Yoga\Desktop\שני ערב מהסמינר\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\Model.exe.config
+C:\Users\Yoga\Desktop\שני ערב מהסמינר\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.pdb
+C:\Users\Yoga\Desktop\שני ערב מהסמינר\אחרון כג סיון\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe.config
+C:\Users\Yoga\Desktop\שני ערב מהסמינר\אחרון כג סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.AssemblyReference.cache
+C:\Users\Yoga\Desktop\שני ערב מהסמינר\אחרון כג סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CoreCompileInputs.cache
+C:\Users\Yoga\Desktop\שני ערב מהסמינר\אחרון כג סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CopyComplete
+C:\Users\Yoga\Desktop\שני ערב מהסמינר\אחרון כג סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.dll
+C:\Users\Yoga\Desktop\שני ערב מהסמינר\אחרון כג סיון\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.pdb
+D:\כיתה י'ב\תכנות\פרויקט כיתה יב שהגשתי\הפרויקט סופי\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.dll
+D:\כיתה י'ב\תכנות\פרויקט כיתה יב שהגשתי\הפרויקט סופי\WcfOfProject\WcfOfProject\bin\Debug\WcfOfProject.pdb
+D:\כיתה י'ב\תכנות\פרויקט כיתה יב שהגשתי\הפרויקט סופי\WcfOfProject\WcfOfProject\bin\Debug\Model.exe
+D:\כיתה י'ב\תכנות\פרויקט כיתה יב שהגשתי\הפרויקט סופי\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe
+D:\כיתה י'ב\תכנות\פרויקט כיתה יב שהגשתי\הפרויקט סופי\WcfOfProject\WcfOfProject\bin\Debug\Model.pdb
+D:\כיתה י'ב\תכנות\פרויקט כיתה יב שהגשתי\הפרויקט סופי\WcfOfProject\WcfOfProject\bin\Debug\Model.exe.config
+D:\כיתה י'ב\תכנות\פרויקט כיתה יב שהגשתי\הפרויקט סופי\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.pdb
+D:\כיתה י'ב\תכנות\פרויקט כיתה יב שהגשתי\הפרויקט סופי\WcfOfProject\WcfOfProject\bin\Debug\ViewModel.exe.config
+D:\כיתה י'ב\תכנות\פרויקט כיתה יב שהגשתי\הפרויקט סופי\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.AssemblyReference.cache
+D:\כיתה י'ב\תכנות\פרויקט כיתה יב שהגשתי\הפרויקט סופי\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.csproj.CoreCompileInputs.cache
+D:\כיתה י'ב\תכנות\פרויקט כיתה יב שהגשתי\הפרויקט סופי\WcfOfProject\WcfOfProject\obj\Debug\WcfOfPro.59B50F97.Up2Date
+D:\כיתה י'ב\תכנות\פרויקט כיתה יב שהגשתי\הפרויקט סופי\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.dll
+D:\כיתה י'ב\תכנות\פרויקט כיתה יב שהגשתי\הפרויקט סופי\WcfOfProject\WcfOfProject\obj\Debug\WcfOfProject.pdb

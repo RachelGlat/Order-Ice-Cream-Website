@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfFlavorsIiceCream">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FlavorsIiceCream" nillable="true" type="tns:FlavorsIiceCream" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFlavorsIiceCream" nillable="true" type="tns:ArrayOfFlavorsIiceCream" />
+  <xs:complexType name="FlavorsIiceCream">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CodeIceCream" type="xs:int" />
+          <xs:element minOccurs="0" name="IsMilk" type="xs:boolean" />
+          <xs:element minOccurs="0" name="NameIceCream" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Picture" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="FlavorsIiceCream" nillable="true" type="tns:FlavorsIiceCream" />
+  <xs:complexType name="BaseEntity">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:element name="BaseEntity" nillable="true" type="tns:BaseEntity" />
+  <xs:complexType name="ArrayOfSpecialDessert">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SpecialDessert" nillable="true" type="tns:SpecialDessert" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSpecialDessert" nillable="true" type="tns:ArrayOfSpecialDessert" />
+  <xs:complexType name="SpecialDessert">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AmountAdditions" type="xs:int" />
+          <xs:element minOccurs="0" name="AmountIceCream" type="xs:int" />
+          <xs:element minOccurs="0" name="CodeCategory" nillable="true" type="tns:Category" />
+          <xs:element minOccurs="0" name="CodeDessert" type="xs:int" />
+          <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="NameDessert" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Picture" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Price" type="xs:int" />
+          <xs:element minOccurs="0" name="Size" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SpecialDessert" nillable="true" type="tns:SpecialDessert" />
+  <xs:complexType name="Category">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CodeCategory" type="xs:int" />
+          <xs:element minOccurs="0" name="NameCategory" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Category" nillable="true" type="tns:Category" />
+  <xs:complexType name="ArrayOfAdditionAccordingCategory">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AdditionAccordingCategory" nillable="true" type="tns:AdditionAccordingCategory" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAdditionAccordingCategory" nillable="true" type="tns:ArrayOfAdditionAccordingCategory" />
+  <xs:complexType name="AdditionAccordingCategory">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CodeAddition" nillable="true" type="tns:Additions" />
+          <xs:element minOccurs="0" name="CodeCategory" nillable="true" type="tns:Category" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="AdditionAccordingCategory" nillable="true" type="tns:AdditionAccordingCategory" />
+  <xs:complexType name="Additions">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CodeAddition" type="xs:int" />
+          <xs:element minOccurs="0" name="NameAddition" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Picture" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Additions" nillable="true" type="tns:Additions" />
+  <xs:complexType name="ArrayOfAdditions">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Additions" nillable="true" type="tns:Additions" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAdditions" nillable="true" type="tns:ArrayOfAdditions" />
+  <xs:complexType name="ArrayOfCategory">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Category" nillable="true" type="tns:Category" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCategory" nillable="true" type="tns:ArrayOfCategory" />
+  <xs:complexType name="ArrayOfSpecificationAdditionsDessert">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SpecificationAdditionsDessert" nillable="true" type="tns:SpecificationAdditionsDessert" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSpecificationAdditionsDessert" nillable="true" type="tns:ArrayOfSpecificationAdditionsDessert" />
+  <xs:complexType name="SpecificationAdditionsDessert">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Amount" type="xs:int" />
+          <xs:element minOccurs="0" name="CodeAdditions" nillable="true" type="tns:Additions" />
+          <xs:element minOccurs="0" name="CodeSpecificationAdditionsDessert" nillable="true" type="tns:DetailingDessertInPurchase" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SpecificationAdditionsDessert" nillable="true" type="tns:SpecificationAdditionsDessert" />
+  <xs:complexType name="DetailingDessertInPurchase">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CodeDessert" nillable="true" type="tns:SpecialDessert" />
+          <xs:element minOccurs="0" name="CodePurchases" nillable="true" type="tns:Purchases" />
+          <xs:element minOccurs="0" name="CodeSpecificationDessert" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DetailingDessertInPurchase" nillable="true" type="tns:DetailingDessertInPurchase" />
+  <xs:complexType name="Purchases">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CodeClient" nillable="true" type="tns:Clients" />
+          <xs:element minOccurs="0" name="CodePurchase" type="xs:int" />
+          <xs:element minOccurs="0" name="DatePurchase" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FinalPrice" type="xs:int" />
+          <xs:element minOccurs="0" name="PaymentMethod" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Time" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Purchases" nillable="true" type="tns:Purchases" />
+  <xs:complexType name="Clients">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CodeClient" type="xs:int" />
+          <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Mail" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Phone" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Clients" nillable="true" type="tns:Clients" />
+  <xs:complexType name="ConstantConstricted">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CodeCategory" nillable="true" type="tns:Category" />
+          <xs:element minOccurs="0" name="CodeConstricted" type="xs:int" />
+          <xs:element minOccurs="0" name="NameConstricted" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Picture" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Price" type="xs:int" />
+          <xs:element minOccurs="0" name="Size" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ConstantConstricted" nillable="true" type="tns:ConstantConstricted" />
+  <xs:complexType name="DsetailingScoopOfIceCreamDessert">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Amount" type="xs:int" />
+          <xs:element minOccurs="0" name="CodeIceCream" nillable="true" type="tns:FlavorsIiceCream" />
+          <xs:element minOccurs="0" name="CodeSpecificationDessert" nillable="true" type="tns:DetailingDessertInPurchase" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DsetailingScoopOfIceCreamDessert" nillable="true" type="tns:DsetailingScoopOfIceCreamDessert" />
+  <xs:complexType name="ConstrictedIinPurchase">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Amount" type="xs:int" />
+          <xs:element minOccurs="0" name="CodeConstricted" type="xs:int" />
+          <xs:element minOccurs="0" name="CodePurchase" nillable="true" type="tns:Purchases" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ConstrictedIinPurchase" nillable="true" type="tns:ConstrictedIinPurchase" />
+</xs:schema>
