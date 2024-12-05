@@ -1,6 +1,4 @@
-Here's a draft README for your project, **Order Ice Cream Website**:
 
----
 
 # Order Ice Cream Website
 
