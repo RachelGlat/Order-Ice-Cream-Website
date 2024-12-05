@@ -22,5 +22,3 @@ A **UWP (Universal Windows Platform)** app designed for managing and placing ice
 Feel free to fork the repository and submit pull requests for improvements.
 
 ---
-
-Let me know if this works for you!
