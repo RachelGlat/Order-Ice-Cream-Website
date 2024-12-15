@@ -15,19 +15,22 @@ The Order Ice Cream Website is a UWP (Universal Windows Platform) app designed t
 ## 🚀 Installation & Running the App
 
 ### Prerequisites:
-1. **Visual Studio** (latest version recommended).
-2. **Windows 10/11 SDK** (comes with Visual Studio UWP workload).
-
+**Visual Studio** (latest version recommended).
 ### Steps:
-1. Clone the repository:  
+Here’s a summary of the steps to set up and run your **Order Ice Cream Website** project:
+
+1. **Install Visual Studio** with the **UWP development** workload and **Windows 10/11 SDK**.
+2. **Clone the repository**:
    ```bash
    git clone https://github.com/RachelGlat/Order-Ice-Cream-Website.git
    ```
-2. Open the solution in Visual Studio by double-clicking the `.sln` file.
-3. Restore any NuGet packages if prompted.
-4. Select the appropriate target device (e.g., Local Machine) in Visual Studio.
-5. Build and run the project by pressing `F5` or clicking the "Start" button.
+3. **Open the solution** file (`.sln`) in Visual Studio.
+4. **Install dependencies** (NuGet packages) if prompted.
+5. **Build the solution**:
+   Go to **Build > Build Solution**.
+6. **Run the app**:
+   Press `F5` or click "Start" to launch.
+
 
 ### Additional Notes:
-- This app runs on **Windows 10/11** devices and takes advantage of UWP’s features for optimal performance on desktop and tablet interfaces.
-- Make sure to install the required dependencies when building the project in Visual Studio.
+ Make sure to install the required dependencies when building the project in Visual Studio.
