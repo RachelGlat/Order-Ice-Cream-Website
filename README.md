@@ -1,7 +1,7 @@
 
 # 🍦 Order Ice Cream Website
 
-A **UWP (Universal Windows Platform)** app that allows users to manage and place ice cream orders. This app is designed to provide both customers and administrators with a seamless experience, offering order management, inventory tracking, and flavor management all through a Windows-based interface.
+The Order Ice Cream Website is a UWP (Universal Windows Platform) app designed to provide an intuitive and efficient platform for both customers and administrators. It allows users to easily browse ice cream flavors, customize their selections, and place orders. For administrators, the app includes tools to manage inventory, track orders, and update available flavors in real-time. The app leverages native Windows features like live tiles and notifications to provide a smooth, integrated experience.
 
 ## ✨ Features
 - **Order Management**: 📋 Users can browse available flavors, customize their order, and place it through the app.
