@@ -14,10 +14,8 @@ The Order Ice Cream Website is a UWP (Universal Windows Platform) app designed t
 
 ## 🚀 Installation & Running the App
 
-### Prerequisites:
-**Visual Studio** (latest version recommended).
+
 ### Steps:
-Here’s a summary of the steps to set up and run your **Order Ice Cream Website** project:
 
 1. **Install Visual Studio** with the **UWP development** workload and **Windows 10/11 SDK**.
 2. **Clone the repository**:
